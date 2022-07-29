@@ -167,7 +167,8 @@ background: lightsteelblue;}
 { 
   padding: 0 20px 0 20px;
   background: transparent;
-  position: fixed;
+  clear: both;
+  position: relative;
 }
   
 #footer_content
