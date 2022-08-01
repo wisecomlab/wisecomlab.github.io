@@ -173,6 +173,32 @@ background: lightsteelblue;}
   margin: 0 0 20px 20px;
   float: right;}
 
+table { 
+  /*margin: 30px 20px 60px 25px;*/
+  width:960px;
+}
+
+table tr th, table tr td { 
+  /*background: #70D4E6;*/
+  color: #FFF;
+  padding: 10px 4px 4px 8px;
+  text-align: left;
+ 
+
+}
+  
+table tr td { 
+  /*background: #D3F2F7;*/
+  color: #47433F;
+ /* border: 1px solid black;*/
+ 
+}
+
+
+
+
+
+
   
 #footer
 { 
