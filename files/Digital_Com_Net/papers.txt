@@ -1,6 +1,7 @@
 
 1- Channel State Information and Joint Transmitter and Receiver Design in Multi-antenna Sytems, Phd thesis
-2- Human Activity Recognition using Channel State Information, Ms thesis,2019
+2- Human Activity Recognition using Channel State Information, Ms thesis,2019.
 3- A novel CSI-Based fingerprint for localization with a single AP (phase sanitation, Phase decompostion and figure)
 4- A Novel Ranging algorithm based on Received Signal Strength and Channel State Information (Combine CSi and RSSI)
-5-
+5-  USing Wi-Fi Channel State Information (CSI) for Human Activity Recognition and Fall Detection
+6- Wi-Fi-CSI-based Fall Detection by Spectrogram Analysis with CNN
