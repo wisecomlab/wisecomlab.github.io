@@ -75,59 +75,76 @@ a:hover
   margin-right: auto;}
 
 #header
-{ width: 1000px;
-top:60px;
-left:80px;
-text-align: left;
-position: absolute;}
+{ 
+  width: 1000px;
+  top:60px;
+  left:80px;
+  text-align: right;
+  position: absolute;
+}
  
  
 #header H1
-{ width: 1000px;
+{ width: 700px;
   font: normal 200% arial, sans-serif;
   color: white;
   letter-spacing: 0px;
-  background: transparent;}
+  background: transparent;
+  margin-left: 50px;}
   
 #header H2
-{ width: 1000px;
+{ width: 800px;
   font: italic 150% arial, sans-serif;
   color:white;
   letter-spacing: 0px;
   background: transparent;}
 
+#header img{
+  height: 230px;
+  width: 230px;
+  position: absolute;
+  top: -77px;
+  left: -70px;
+  background: transparent;
+  /*align-items: center;*/
+}
 #menubar
 { width: 1000px;
   height: 30px;
   text-align: center; 
   margin-top: 0px;
   color: #000;
-  background: transparent;} 
-  
-
+  background: transparent;
+} 
 
 #site_content
 { width: 1000px;
   overflow: hidden;
-  background: white;}  
+  background: white;
+}  
   
 #banner_image {
-    margin: 20px auto;
+  margin: 20px auto;
 	width: 960px;
-position: relative;
+  position: relative;
 }
+
+
+
 
 .sidebar_container
 { float: left;
   width: 260px;
   margin: 0px 0 20px 0;
-background: lightsteelblue;}
+  /*background: lightsteelblue;*/
+}
 
 .sidebar
-{ float: right;
+{ float: left;
   width: 240px;
-  padding-left: 10px;
-  margin-bottom: 20px;}
+  /*padding-left: 10px;*/
+  /*margin-bottom: 20px;*/
+}
 
 .sidebar_item
 { font: normal 100% arial, sans-serif;
@@ -149,18 +166,25 @@ background: lightsteelblue;}
 { 
   text-decoration: none;} 
 
+
+
+
+
 #mainpagecontent
 { text-align: left;
   width: 960px;
   padding: 0;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 10px;
   float: left;}
 
 .mainpagecontent_item
-{ width: 680px;
+{ 
+  /*width: 680px;*/
   margin: 0 0 20px 20px;
-  float: right;}
-
+  float: left;}
+.mainpagecontent_item p{
+  font-size: 20px;
+}
 #content
 { text-align: justify;
   width: 960px;
@@ -197,7 +221,7 @@ table tr td {
 
 .contact{
   margin: auto;
-  width: 40%;
+  width: 70%;
   padding: 10px;
 }
 
@@ -263,7 +287,58 @@ table tr td {
   text-decoration: none;
   color: #1D1D1D;
   letter-spacing: 0px;
-  z-index: 10;
+  z-index: 10;.row {  
+      margin: 10px 16px;
+    }
+
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      display: none; /* Hide all elements by default */
+    }
+
+    /* Clear floats after rows */ 
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Content */
+    .content {
+      background-color: white;
+      padding: 10px;
+    }
+
+    /* The "show" class is added to the filtered elements */
+    .show {
+      display: block;
+    }
+
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 10px 14px;
+      background-color: white;
+      cursor: pointer;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #ddd;
+    }
+
+    .btn.active {
+      background-color: #666;
+      color: white;
+    }
+
+    .background{
+
+    }
   display: block;
   float: left;
   height: 60px;
@@ -275,4 +350,56 @@ table tr td {
 .lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {
   border: none;
 }
+
+
+
+.row {  
+      margin: 10px 16px;
+    }
+
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      display: none; /* Hide all elements by default */
+    }
+
+    /* Clear floats after rows */ 
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Content */
+    .content {
+      background-color: white;
+      padding: 10px;
+    }
+
+    /* The "show" class is added to the filtered elements */
+    .show {
+      display: block;
+    }
+
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 10px 14px;
+      background-color: white;
+      cursor: pointer;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #ddd;
+    }
+
+    .btn.active {
+      background-color: #666;
+      color: white;
+    }
+
 
